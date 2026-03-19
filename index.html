@@ -1171,7 +1171,7 @@ function generatePDF(scores, grade, gaps) {
 
   const steps = [
     {n:'1', title:'Review your priority areas', body:'Focus on the lowest-scoring sections first — these carry the highest legal and operational risk.'},
-    {n:'2', title:'Book your free 20-minute call', body:'Walk through your results with a FlightHR specialist. No sales pressure — just clarity on what to fix and in what order.'},
+    {n:'2', title:'Book your free 30-minute call', body:'Walk through your results with a FlightHR specialist. No sales pressure — just clarity on what to fix and in what order.'},
     {n:'3', title:'Receive your tailored action plan', body:"We'll recommend the right FlightHR package for your stage and budget, with a clear implementation timeline."}
   ];
 
@@ -1209,7 +1209,7 @@ function generatePDF(scores, grade, gaps) {
   tc(255,255,255); fs(13); font('bold');
   doc.text('flighthr.co.uk/call', W/2, y+13, {align:'center'});
   tc(...COPPER); fs(8.5); font('normal');
-  doc.text('Book your free 20-minute HR strategy call', W/2, y+21, {align:'center'});
+  doc.text('Book your free 30-minute HR strategy call', W/2, y+21, {align:'center'});
   y += 32;
 
   // ════════════════════════════════════════════════════════════
@@ -1219,7 +1219,7 @@ function generatePDF(scores, grade, gaps) {
   fill(...NAVY); doc.rect(0, FY, W, 28, 'F');
   fill(...COPPER); doc.rect(0, FY, W, 2.5, 'F');
   tc(255,255,255); fs(10); font('bold');
-  doc.text('Book your free 20-minute call: flighthr.co.uk', W/2, FY+14, {align:'center'});
+  doc.text('Book your free 30-minute call: flighthr.co.uk', W/2, FY+14, {align:'center'});
   tc(150,155,160); fs(7); font('normal');
   doc.text('© FlightHR · Prepared exclusively for '+userData.name+' · '+userData.company, W/2, FY+22, {align:'center'});
 
