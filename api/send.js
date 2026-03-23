@@ -150,7 +150,7 @@ export default async function handler(req, res) {
   ${gaps && gaps.length > 0 ? `<p style="margin:0 0 10px;font-size:14px;font-weight:600;color:#0e2841;">Your priority areas:</p><ul style="margin:0 0 20px;padding-left:20px;color:#555;font-size:14px;line-height:1.9;">${gapItems}${policyNote}</ul>` : ''}
   <p style="margin:0 0 20px;font-size:13px;color:#666;line-height:1.7;">Your full breakdown and action plan is in the attached PDF.</p>
   <table cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
-    <a href="YOUR_CALENDLY_LINK_HERE" style="display:inline-block;background:#c08457;color:#ffffff;text-decoration:none;padding:14px 30px;border-radius:10px;font-size:15px;font-weight:600;">Book Your Free 20-Minute Call →</a>
+    <a href="https://tidycal.com/3q2qjk6/30-minute-meeting" style="display:inline-block;background:#c08457;color:#ffffff;text-decoration:none;padding:14px 30px;border-radius:10px;font-size:15px;font-weight:600;">Book Your Free 20-Minute Call →</a>
   </td></tr></table>
 </td></tr>
 <tr><td style="padding:0 40px 28px;">
