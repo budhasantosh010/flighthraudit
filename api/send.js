@@ -175,7 +175,7 @@ export default async function handler(req, res) {
       method: 'POST',
       headers,
       body: JSON.stringify({
-        sender:      { name: 'FlightHR', email: 'simpaynepowell@gmail.com' },
+        sender:      { name: 'FlightHR', email: 'info@flighthr.co.uk' },
         to:          [{ email, name }],
         subject:     `Your HR Foundations Audit — ${gradeLabel} (${score}/100)`,
         htmlContent: htmlBody,
